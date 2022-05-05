@@ -62,8 +62,8 @@ class Character {
             this.height,
             this.x,
             this.y,
-            this.width * 5,
-            this.height * 5
+            this.width,
+            this.height
         );
         // animate sprite
         if (this.frameX < this.maxFrame) this.frameX++;
